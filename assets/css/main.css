@@ -181,7 +181,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
 		line-height: 1em;
-		margin: -0.5em 0 1em 0;
+		margin: 1em 0 1em 0;
 		letter-spacing: -0.0125em;
 	}
 
@@ -1941,7 +1941,7 @@ input, select, textarea {
 		input[type="button"],
 		button,
 		.button {
-			padding: 0;
+			padding: 0 1em;
 		}
 
 	}
@@ -2696,6 +2696,8 @@ div.captcha {
 	section.special, article.special {
 		text-align: center;
 		padding: 3em;
+		max-width: 800px;
+		margin: 0 auto;
 	}
 
 	header p {
