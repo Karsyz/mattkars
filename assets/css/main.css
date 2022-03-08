@@ -2276,7 +2276,10 @@ input, select, textarea {
 		color: #e0e0e0;
 	}
 
-	
+div.captcha {
+	display: block;
+	margin: 0 auto;
+}
 
 /* Image */
 
