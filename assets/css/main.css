@@ -2004,6 +2004,13 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	.formSpecial {
+		width: 350px;
+		margin: 0 auto;
+
+	}
+	
+
 	label {
 		display: block;
 		font-size: 0.9em;
@@ -2774,14 +2781,15 @@ div.captcha {
 
 		.spotlight .image {
 			width: 30%;
-			border-radius: 100%;
+
+			border-radius: 6px;
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 6px;
 				width: 100%;
 			}
 
@@ -3156,7 +3164,7 @@ div.captcha {
 			}
 
 		.wrapper.style2 {
-			background-color: #fbfbfb;
+			background-color: white;
 			color: #999999;
 		}
 
