@@ -4174,3 +4174,42 @@ div.captcha {
 		}
 
 	}
+
+.cp-cont {
+	width: 100%;
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.cp-row {
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 10px 0;
+
+}
+
+.cpImg {
+	min-height: 250px;
+	max-height: 250px;
+	min-width: 250px;
+	max-width: 250px;
+	height: 250px;
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	padding: 5px;
+	
+}
+
+.cpImg img{
+	object-fit: scale-down;
+	width: 100%;
+	padding: 5px;
+	
+}
