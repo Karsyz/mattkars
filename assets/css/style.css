@@ -1,0 +1,90 @@
+/* Box Model */
+* { 
+     box-sizing: border-box;
+}
+
+/* Clear fix */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/* Clear */
+.clear {
+	clear: both;
+}
+
+
+   
+   /******************************************
+   /* LAYOUT
+   /*******************************************/
+ 
+body {
+     display: flex;
+     flex-direction: column;
+     background:rgb(41, 40, 40)
+}
+
+
+
+header {
+     height: 100px;
+     background: white;
+     border: 1px solid white;
+     border-radius: 10px;
+
+}
+
+nav ul {
+     display: inline-flex;
+     flex-direction: row;
+     /* align-self: flex-end; */
+     /* align-content: space-between; */
+}
+nav ul li {
+
+     list-style: none;
+     text-transform: uppercase;
+     
+}
+
+.boxContainer {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+     flex-wrap: wrap;
+}
+
+.boxes {
+     align-content: space-around;
+     border: 1px solid white;
+     border-radius: 10px;
+     padding: 0 10px;
+     color: white;
+     max-width: 350px;
+}
+
+.box1 {
+     background: rgb(235, 168, 46);
+}
+
+.box2 {
+     background: rgb(70, 70, 214);
+}
+
+.box3 {
+     background: rgb(54, 133, 54);
+}
+
+.box4 {
+     background: rgb(36, 28, 150);
+}
+
+   /******************************************
+   /* ADDITIONAL STYLES
+   /*******************************************/
