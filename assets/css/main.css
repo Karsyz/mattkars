@@ -227,7 +227,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.5em;
 		}
 
 		h3 {
@@ -2777,6 +2777,7 @@ div.captcha {
 		-ms-align-items: center;
 		align-items: center;
 		margin: 0 0 2em 0;
+		height: 100vh;
 	}
 
 		.spotlight .image {
@@ -2801,20 +2802,20 @@ div.captcha {
 				margin-bottom: 0;
 			}
 
-		.spotlight:nth-child(2n) {
+		/* .spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
 			flex-direction: row-reverse;
-		}
+		} */
 
-			.spotlight:nth-child(2n) .image {
+			/* .spotlight:nth-child(2n) .image {
 				margin: 0 0 0 3em;
 			}
 
 			.spotlight:nth-child(2n) .content {
 				text-align: right;
-			}
+			} */
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
@@ -2822,9 +2823,9 @@ div.captcha {
 			margin: 0 2em 0 0;
 		}
 
-		.spotlight:nth-child(2n) .image {
+		/* .spotlight:nth-child(2n) .image {
 			margin: 0 0 0 2em;
-		}
+		} */
 
 	}
 
@@ -2945,14 +2946,14 @@ div.captcha {
 
 	.wrapper {
 		padding: 4.5em 0 2.5em 0 ;
-		background-color: #ffffff;
+		background-color: #383735;
 		border-bottom: solid 2px #eeeeee;
 	}
 
 		.wrapper > .inner {
 			margin-left: auto;
 			margin-right: auto;
-			width: 50em;
+			width: 90vw;
 		}
 
 			.wrapper > .inner.alt > * {
@@ -3926,7 +3927,7 @@ div.captcha {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: auto;
+				height: 100vh;
 				min-height: 0;
 			}
 
@@ -3962,6 +3963,14 @@ div.captcha {
 
 				#header .image {
 					overflow: hidden;
+				}
+				
+				#header h1 {
+					font-size: 2em;
+				}
+
+				#header h2 {
+					font-size: 1.25em;
 				}
 
 		}
@@ -4210,6 +4219,56 @@ div.captcha {
 .cpImg img{
 	object-fit: scale-down;
 	width: 100%;
-	padding: 5px;
-	
+	padding: 5px;	
+}
+
+
+.bubbleWrap {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+
+.card {
+	margin: 0;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 25vw;
+	height: 80vw;
+	border-radius: 20px;
+	padding: 20px;
+
+}
+
+.cardText {
+
+	width: 25vw;
+	border-radius: 20px;
+	padding: 20px;
+	background: white;
+}
+
+.cardImg {
+
+	border-radius: 20px;
+	padding: 20px;
+	margin: 0;
+}
+
+
+.cardText > h3 {
+	margin: 5px 0;
+}
+
+.cardText > p {
+	margin: 5px 0;
 }
